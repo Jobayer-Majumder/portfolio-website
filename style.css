@@ -1,0 +1,262 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+header {
+   
+   
+}
+.header-container {
+    width: 85%;
+    margin: auto;
+    text-align: right;
+    padding-top: 35px;
+
+}
+.header-container a {
+    color: #3C3C3C;
+    padding: 0 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+.header-container a:hover{
+    color: #F46060;
+}
+.about-section{
+
+}
+.about-section-container{
+    width: 85%;
+    margin: auto;
+}
+.about-top{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+.text-area{
+    margin-left: 20px;
+}
+.text-area h1{
+    font-size: 50px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #363958;
+    margin-top: 150px;
+}
+.text-area span{
+    color: #FF8367;
+}
+.text-area span  {
+    color: white
+}
+.text-area p {
+    color: #3E3E3E;
+    font-size: 14px;
+    line-height: 22px;
+    padding-bottom: 30px ;
+    
+}
+
+.image-area{
+    width: 80%;
+
+}
+
+.about-bottom{
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+.image-area img {
+    width: 80%;
+}
+.text-area{
+    width: 70%;
+    margin: auto;
+}
+
+
+
+.text-area a {
+    text-transform: capitalize;
+    color: white;
+    background-image: linear-gradient(80deg, #FF8063, #F46060) ;
+    padding: 18px 40px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.text-area a:hover{
+    background: linear-gradient(80deg, #F46060,  #FF8063) ;
+}
+/****working area start from here ****/
+.working-area{
+    
+    background-color: #F8F9FC;
+}
+.working-area-container{
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding-bottom: 120px;
+}
+.working-area h1{
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+.working-area span {
+    color: #FF8367;
+}
+.working-area h2{
+    font-size: 28px;
+    padding-top: 10px;
+}
+.working-area p{
+    font-size: 15px;
+    line-height: 28px;
+    padding-bottom: 10px;
+}
+.gym-area{
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 10px 10px whitesmoke;
+    border-radius: 15px;
+    color: #363958;
+}
+.gym-area-img {
+    width: 90%;
+    margin: auto;
+    padding-top: 15px;
+    
+}
+.gym-area-text {
+    width: 90%;
+    margin: auto;
+} 
+
+
+.agency-area{
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 10px 10px whitesmoke;
+    border-radius: 15px;
+    color: #363958;
+}
+.agency-area-img {
+    width: 90%;
+    margin: auto;
+    padding-top: 15px;
+    
+}
+.agency-area-text {
+    width: 90%;
+    margin: auto;
+} 
+
+.music-area{
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 10px 10px whitesmoke;
+    border-radius: 15px;
+    color: #363958;
+}
+.music-area-img {
+    width: 90%;
+    margin: auto;
+    padding-top: 15px;
+    
+}
+.music-area-text {
+    width: 90%;
+    margin: auto;
+}
+/****working area end here ****/
+
+/*****contact area start from here *****/
+.contact-area {
+   
+}
+.contact-area-container{
+    width: 65%;
+    margin: auto;
+    background: url(images/Group_33094_1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 260px;
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+    
+}
+.contact-area-container h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 90px 40px;
+    color:  white;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.button a{
+    text-transform: capitalize;
+    font-weight: bold;
+    background: linear-gradient(80deg, #FF8063, #F46060) ;
+    padding: 24px 40px;
+    border-radius: 8px;
+    color: white;
+    margin-left: 90px;
+    font-size: 15px
+
+}
+.button a:hover{
+    background: linear-gradient(80deg, #F46060,  #FF8063) ;
+}
+
+
+/*****contact area end here *****/
+
+/****icon area start  from here ****/
+.icon-area{
+
+}
+.icon-area-container{
+    width: 80%;
+    margin: auto;
+}
+.icon-area-text {
+    text-align: center;
+    color: #363958;
+    padding-top: 60px
+}
+.icon-area-text h3 {
+    text-transform: uppercase;
+
+}
+.icon-area-text h1{
+    font-size: 45px;
+}
+.icon-area-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+.icon-area-img img {
+    width: 50px;
+    padding: 0 20px;
+}
+/*****icon area end here *****/
