@@ -12,7 +12,7 @@ img {
     width: 100%;
 }
 header {
-   
+  
    
 }
 .header-container {
@@ -33,7 +33,7 @@ header {
     color: #F46060;
 }
 .about-section{
-
+    padding-top: 60px;
 }
 .about-section-container{
     width: 85%;
@@ -43,15 +43,13 @@ header {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
 }
-.text-area{
-    margin-left: 20px;
-}
+
 .text-area h1{
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 60px;
+    line-height: 70px;
     text-transform: uppercase;
     color: #363958;
-    margin-top: 150px;
+   
 }
 .text-area span{
     color: #FF8367;
@@ -68,18 +66,20 @@ header {
 }
 
 .image-area{
-    width: 80%;
+    
+   
 
 }
 
 .about-bottom{
     display: grid;
    grid-template-columns: repeat(2, 1fr);
+   padding-bottom: 60px;
 }
 .image-area img {
     width: 80%;
 }
-.text-area{
+.about-bottom .text-area{
     width: 70%;
     margin: auto;
 }
@@ -181,10 +181,80 @@ header {
 }
 /****working area end here ****/
 
+
+/* services section start from here */
+.services {
+
+}
+.service-header-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+   
+    
+}
+.service-header span {
+    font-size: 80px;
+    color: #FF8063;
+}
+.service-header h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #363958;
+}
+.service-header p {
+    font-size: 16px;
+    color: #363958;
+}
+.service-header p::after {
+    content: '';
+    display: block;
+    border: 1px solid #FF8063;
+    width: 40%;
+    margin: auto;
+    margin-top: 25px;
+    border-bottom: transparent;
+
+}
+.service-container {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    color: #999;
+    text-align: center;
+}
+.service-container a {
+    font-size: 50px;
+    color: #FF8063;
+}
+.service-container h1{
+    font-size: 40px;
+    color: #363958;
+    text-transform: capitalize;
+}
+.service-container p {
+    font-size: 16px;
+    color: #363958;
+}
+
+
+
+
+
+
+
+
+
+/* services section end from here */
+
+
 /*****contact area start from here *****/
 .contact-area {
-   
+    background-color: #F8F9FC;
 }
+
 .contact-area-container{
     width: 65%;
     margin: auto;
@@ -192,7 +262,7 @@ header {
     background-size: 100%;
     background-repeat: no-repeat;
     height: 260px;
-    margin-top: 120px;
+    margin-top: 80px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
    
@@ -230,11 +300,12 @@ header {
 
 /****icon area start  from here ****/
 .icon-area{
-
+    background-color: #F8F9FC;
 }
 .icon-area-container{
     width: 80%;
     margin: auto;
+    padding-bottom: 60px;
 }
 .icon-area-text {
     text-align: center;
@@ -252,7 +323,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    
 
 }
 .icon-area-img img {
